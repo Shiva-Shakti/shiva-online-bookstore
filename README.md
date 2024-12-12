@@ -54,6 +54,8 @@ npm install
 
 4.Start the development server:
 
+cd "C:\Users\Shiva Shakti\OneDrive\Documents\OneDrive\AlgitWeb\bookstore-frontend-new"
+then
 npm run dev
 
 5.Open your browser and go to http://localhost:3000 to view the application.
