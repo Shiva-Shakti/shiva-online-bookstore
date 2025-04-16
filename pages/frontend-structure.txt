@@ -1,0 +1,26 @@
+Folder PATH listing for volume Windows
+Volume serial number is EE22-D61B
+C:.
+¦   book-list.tsx
+¦   books.tsx
+¦   frontend-structure.txt
+¦   index.tsx
+¦   _app.tsx
+¦   
++---api
+¦   ¦   books.js
+¦   ¦   
+¦   +---bookstore-backend
+¦           touch index.js
+¦           
++---book
+¦       [id].tsx
+¦       
++---book-details
+    ¦   data.json
+    ¦   [id].tsx
+    ¦   
+    +---pages
+        +---api
+                book.mock.js
+                
