@@ -1,17 +1,17 @@
-
 {
     "name": "bookstore-frontend-new",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start"
+        "dev": "node node_modules/next/dist/bin/next dev",
+        "build": "node node_modules/next/dist/bin/next build",
+        "start": "node node_modules/next/dist/bin/next start"
     },
     "dependencies": {
+        "@netlify/next": "^1.4.9",
         "autoprefixer": "^10.4.20",
         "axios": "^1.8.4",
-        "next": "latest",
+        "next": "^13.5.2",
         "postcss": "^8.4.49",
         "react": "latest",
         "react-dom": "latest",
@@ -21,6 +21,10 @@
         "@types/node": "22.10.1",
         "@types/react": "19.0.1",
         "typescript": "5.7.2"
-    }
+    },
+    "browserslist": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+    ]
 }
-

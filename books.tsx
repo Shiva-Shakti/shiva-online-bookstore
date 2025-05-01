@@ -1,4 +1,4 @@
-const books = [
+const book = [
   { id: 1, title: "To Kill a Mockingbird", author: "Harper Lee", quantity: 5 },
   { id: 2, title: "1984", author: "George Orwell", quantity: 8 },
   { id: 3, title: "Moby Dick", author: "Herman Melville", quantity: 6 },
