@@ -1,16 +1,13 @@
 [build]
   command = "npm run build"
   publish = ".next"
-  functions = "netlify/functions"  # From remote version
+  functions = "netlify/functions"
 
 [dev]
   command = "npm run dev"
-  port = 3000  # Keep your local port setting
-  targetPort = 3000  # From remote version
-  framework = "#custom"  # From remote version
-
-[[plugins]]
-  package = "@netlify/next"  # From remote version
+  port = 3000
+  targetPort = 3000
+  framework = "#custom"
 
 [[redirects]]
   from = "/*"
