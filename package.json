@@ -11,6 +11,8 @@
         "@netlify/next": "^1.4.9",
         "autoprefixer": "^10.4.20",
         "axios": "^1.8.4",
+        "express": "^5.1.0",
+        "mongoose": "^8.14.1",
         "next": "^13.5.2",
         "postcss": "^8.4.49",
         "react": "latest",
